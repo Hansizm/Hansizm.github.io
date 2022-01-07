@@ -10,7 +10,7 @@ github: "https://github.com/"
 
 # Site config
 baseurl: "/"
-url: "https://Hansizm.github.io/"
+
 highlighter: rouge
 sass:
   sass_dir: assets/scss
