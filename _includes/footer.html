@@ -1,16 +1,13 @@
-<footer class="footer">
-	<div class="container">
-		<section class="contact">
-			<h2>Contact</h2>
-			<a title="{{ site.email }}" href="mailto:{{ site.email }}">{{ site.email }}</a>
-		</section>
-		<section class="follow">
-			<h2>Follow</h2>
-			<ul>
-				<li><a title="LinkedIn" href="{{ site.linkedin }}" target="_blank">LinkedIn</a></li>
-				<li><a title="Twitter" href="{{ site.twitter }}" target="_blank">Twitter</a></li>
-				<li><a title="Github" href="{{ site.github }}" target="_blank">Github</a></li>
-			</ul>
-		</section>
-	</div>
-</footer>
+<!-- Footer -->
+<div id="footer">
+  
+  <!-- Copyright -->
+  <ul class="copyright">
+    {% if site.title or site.author %}
+      <li>&copy; {{- site.title | default: site.author -}}. All rights reserved.</li>
+    {% endif %}
+    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+    <li>Jekyll integration: <a href="https://chrisbobbe.github.io/">Chris Bobbe</a></li>
+  </ul>
+  
+</div>

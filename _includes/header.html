@@ -1,7 +1,15 @@
-<header class="header">
-	<div class="container">
-		<h1 class="logo">
-			<a title="{{ site.author }}" href="{{ site.baseurl | append: "/" }}">{{ site.author }}</a>
-		</h1>
-	</div>
-</header>
+{%- comment -%}
+  Include vars:
+  scrolly_nav
+{%- endcomment -%}
+
+<!-- Header -->
+<div id="header">
+  <div class="top">
+    {%- include logo.html -%}
+    {%- include nav.html section_items=include.scrolly_nav -%}
+  </div>
+  <div class="bottom">
+    {%- include social_icons.html -%}
+  </div>
+</div>
