@@ -40,7 +40,7 @@ email: sangyooni120@naver.com
 avatar: /Users/hansang-yun/Documents/GitHub/Hansizm.github.io/jekyll-theme-prologue-master/IMG_0147.jpg #assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "/jekyll-theme-prologue" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Hansizm.github.io/" # the base hostname & protocol for your site
 
 # Social settings
