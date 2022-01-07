@@ -1,13 +1,12 @@
 ---
 ---
 
-@import "plain";
+@charset "UTF-8";
 
-{% if site.plainwhite.search %}
-  @import "search";
-{% endif %}
-
-{%- if site.plainwhite.dark_mode -%}
-  @import "toggle";
-  @import "dark";
-{%- endif -%}
+@import "variables";
+@import "mixins";
+@import "normalize";
+@import "fonts";
+@import "core";
+@import "layout";
+@import "syntax";
