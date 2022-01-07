@@ -1,15 +1,16 @@
 # User config
-author: "Pineapple"
+author: "Hansizm"
 tagline: "Pineapple Certfied Jekyll Theme"
 description: "In 1493, explorer Christopher Columbus found pineapples on Guadeloupe Island in the Caribbean. Pineapple on pizza soon followed..."
 keywords: "Pineapple, Pineapple Pizza, Pineapple House"
-email: "pineapple@example.com"
+email: "sangyooni120@naver.com"
 linkedin: "https://www.linkedin.com/"
 twitter: "https://twitter.com/"
-github: "https://github.com/"
+github: "https://github.com/Hansizm/"
 
 # Site config
-baseurl: "/pineapple"
+baseurl: "/"
+url: "https://Hansizm.github.io/"
 highlighter: rouge
 sass:
   sass_dir: assets/scss
